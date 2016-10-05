@@ -1,2 +1,2 @@
-# tf_star-
+# tf_star
 TF enrichment tool
