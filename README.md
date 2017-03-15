@@ -12,7 +12,7 @@ TF-STAR: a versatile tool for identifying key transcription factors for human di
 
 The software is developed and tested in Linux and Max OS environments.
 
-You need  [Python 2.7](https://www.python.org/), and some python packages 
+You need [BEDTools](https://github.com/arq5x/bedtools2),  [Python 2.7](https://www.python.org/), and some python packages 
 
 * [numpy](http://www.numpy.org/)
 * [concurrent.futures](https://pypi.python.org/pypi/futures)
