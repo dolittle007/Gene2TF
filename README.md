@@ -1,6 +1,6 @@
-# TF-STAR
+# TFinteg
 
-TF-STAR: a versatile tool for identifying key transcription factors for human diseases through analysis of the regulatory regions of disease genes or associated variants 
+TFinteg: a versatile and integrative tool for detecting transcription factors underlying genes or variants in diseases
 
 
 
@@ -12,20 +12,19 @@ TF-STAR: a versatile tool for identifying key transcription factors for human di
 
 The software is developed and tested in Linux and Max OS environments.
 
-You need [BEDTools](https://github.com/arq5x/bedtools2),  [Python 2.7](https://www.python.org/), and some python packages 
+You need [BEDTools](https://github.com/arq5x/bedtools2),  [Python 3.5](https://www.python.org/), and some python packages 
 
 * [numpy](http://www.numpy.org/)
-* [concurrent.futures](https://pypi.python.org/pypi/futures)
 * [tqdm](https://pypi.python.org/pypi/tqdm)
 * [argparse](https://pypi.python.org/pypi/argparse)
 
-to run TF-STAR.
+to run TFinteg.
 
 ## Project Layout
 
 
 ## Input data
-TF-STAR will calculate the TF enrichment results from input genes.
+TFinteg will calculate the TF enrichment results from input genes.
 Some support data is needed, that needs to be set up prior TF-STAR execution.
 
 The gist of TF-STAR input is:
