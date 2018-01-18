@@ -24,8 +24,8 @@ to run TFinteg.
 
 
 ## Input data
-TFinteg will calculate the TF enrichment results from input genes.
-Some support data is needed, that needs to be set up prior TF-STAR execution.
+Gene2TF will calculate the TF enrichment results from input genes.
+Some support data is needed, that needs to be set up prior Gene2TF execution.
 
 The gist of Gene2TF input is:
 - database (an example is 
