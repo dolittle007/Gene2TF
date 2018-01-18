@@ -1,6 +1,6 @@
-# TFinteg
+# Gene2TF
 
-TFinteg: a versatile and integrative tool for detecting transcription factors underlying genes or variants in diseases
+Gene2TF: a versatile tool for detecting transcription factors underlying genes or variants in diseases
 
 
 
@@ -27,7 +27,7 @@ to run TFinteg.
 TFinteg will calculate the TF enrichment results from input genes.
 Some support data is needed, that needs to be set up prior TF-STAR execution.
 
-The gist of TF-STAR input is:
+The gist of Gene2TF input is:
 - database (an example is 
 - A file with the covar
 -  results (such aswhich are just randomly generated)
