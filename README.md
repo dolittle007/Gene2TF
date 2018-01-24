@@ -18,7 +18,7 @@ You need [BEDTools](https://github.com/arq5x/bedtools2),  [Python 3.5](https://w
 * [tqdm](https://pypi.python.org/pypi/tqdm)
 * [argparse](https://pypi.python.org/pypi/argparse)
 
-to run TFinteg.
+to run Gene2TF.
 
 ## Project Layout
 
