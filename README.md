@@ -21,6 +21,22 @@ Getting Soure Code
 	cd gene2tf
 Running Gene2TF 
 
+Subcommand
+-----------------
+  test         Permutation test for enriched TFs
+  merge        Merge input ChIP-seq BED files into one
+
+## Permutation test for enriched TFs
+
+gene2tf.py test [-h] -i INPUT_FILE [-m {empirical,kde,hypergeometric}]
+                       -o OUTPUT_PREFIX [-s {csv,tab}]
+                       [-p {ENCODE_merged.bed,H1-hESC.bed,HeLa-S3.bed,HepG2.bed,K562.bed,LCL.bed,GM12878.bed,A549.bed,HEK293.bed,MCF-7.bed,ALL}]
+                       [--path PATH] [-u UPSTREAM] [-d DOWNSTREAM] [-t THREAD]
+                       [-n NUMBER] [--background BACKGROUND]
+                       [-b {protein_coding,noncoding,pseudogene,all}]
+                       [-l LOG_FILE]
+
+
 Input data
 -----------------
 Gene2TF will calculate the TF enrichment results from input genes.
